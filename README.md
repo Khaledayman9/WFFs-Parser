@@ -7,9 +7,9 @@ In this assignment, we will need to do some (simple) research and read about def
 [^1]: [Definite Clause Grammar](https://en.wikipedia.org/wiki/Definite_clause_grammar)
 - The alphabet of the language is the union of the following sets.
   
- a) The set of variables V = {x,y,z,w,t}.
+ - The set of variables V = {x,y,z,w,t}.
  
- b) The set of constants C = {J,K,L,M,N}.
+ - The set of constants C = {J,K,L,M,N}.
  
  c) The set of function symbols F = {f,g,h}.
  
