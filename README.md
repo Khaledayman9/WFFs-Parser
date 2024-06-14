@@ -7,15 +7,15 @@ In this assignment, we will need to do some (simple) research and read about def
 [^1]: [Definite Clause Grammar](https://en.wikipedia.org/wiki/Definite_clause_grammar)
 - The alphabet of the language is the union of the following sets.
   
- - The set of variables V = {x,y,z,w,t}.
+   a) The set of variables V = {x,y,z,w,t}.
  
- - The set of constants C = {J,K,L,M,N}.
+   b) The set of constants C = {J,K,L,M,N}.
  
- c) The set of function symbols F = {f,g,h}.
+   c) The set of function symbols F = {f,g,h}.
  
- d) The set of predicate symbols P = {P,Q,R,S,T}.
+   d) The set of predicate symbols P = {P,Q,R,S,T}.
  
- e) The set of syncategorematic symbols {~,&,|,=>,<=>,A,E,(,),.,*}
+   e) The set of syncategorematic symbols {~,&,|,=>,<=>,A,E,(,),.,*}
  
 - The set T of terms of the language is smallest set satisfying the following.
 
