@@ -19,33 +19,33 @@ In this assignment, we will need to do some (simple) research and read about def
  
 - The set T of terms of the language is smallest set satisfying the following.
 
- a) V ⊆ T.
+   a) V ⊆ T.
  
- b) C ⊆ T.
+   b) C ⊆ T.
  
- c) {f(t1 * t2 *...*tn | f ∈ F and ti ∈ T} ⊆ T.
+   c) {f(t1 * t2 *...*tn | f ∈ F and ti ∈ T} ⊆ T.
 
 - The set of atoms A = {p(t1 * t2 *...*tn | p ∈ P and ti ∈ T}.
 
 - The set of WFFs of the language is the smallest set containing all of the following forms.
   
- a) Atoms.
+   a) Atoms.
  
- b) ~Φ, provided that Φ is a WFF.
+   b) ~Φ, provided that Φ is a WFF.
  
- c) Φ&Ψ ,provided that Φ and Ψ are WFFs.
+   c) Φ&Ψ ,provided that Φ and Ψ are WFFs.
  
- d) Φ|Ψ , provided that Φ and Ψ are WFFs.
+   d) Φ|Ψ , provided that Φ and Ψ are WFFs.
  
- e) Φ=>Ψ , provided that Φ and Ψ are WFFs.
+   e) Φ=>Ψ , provided that Φ and Ψ are WFFs.
  
- f) Φ<=>Ψ , provided that Φ and Ψ are WFFs.
+   f) Φ<=>Ψ , provided that Φ and Ψ are WFFs.
  
- g) Ax(Φ), where x V and Φ is a WFF.
+   g) Ax(Φ), where x V and Φ is a WFF.
  
- h) Ex(Φ), where x V and Φ is a WFF.
+   h) Ex(Φ), where x V and Φ is a WFF.
  
- i) (Φ), where Φ is a WFF.
+   i) (Φ), where Φ is a WFF.
  
 - All boolean operators are left associative and their order of precedence is ~,&,|,=>,<=> and then <=>. Parenthesizing has top precedence.
 
@@ -53,9 +53,9 @@ In this assignment, we will need to do some (simple) research and read about def
   
 - A successful parse should result in building a parse tree for the input; make sure your parser generates such a tree. We linearly represent a parse tree as follows:
   
- a) l, where l is the label of a leaf.
+   a) l, where l is the label of a leaf.
  
- b) p(l1,l2,...,ln), where p is a label of a parent node and li is the ith sub-tree thereof, where left-to-right order is assumed.
+   b) p(l1,l2,...,ln), where p is a label of a parent node and li is the ith sub-tree thereof, where left-to-right order is assumed.
 
 # Test Cases:
 - The soundness and completeness of the grammar needs be auto-tested. we need to make sure that queries are of the following format:
