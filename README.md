@@ -69,4 +69,4 @@ s(T,[’A’, ’x’, ’(’, ’P’, ’(’, ’J’, ’*’, ’K’, ’
 
 - SWI-Prolog
 
-- Notebook++
+- Notepad++
