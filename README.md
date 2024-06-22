@@ -66,7 +66,5 @@ s(T,[’A’, ’x’, ’(’, ’P’, ’(’, ’J’, ’*’, ’K’, ’
 
  # Technologies
 - Prolog
-
 - SWI-Prolog
-
 - Notepad++
